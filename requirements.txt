@@ -1,0 +1,14 @@
+# Dependencias directas; pins UI/HTTP/PDF comprobados localmente en Python 3.12.
+# Esto NO acredita instalación completa ni ejecución RAG cloud en Python 3.13.
+# Objetivo de ejecución: Python 3.11+; Colab actual debe registrar su versión.
+# Tras una instalación real, conservar el freeze sanitizado de ese entorno.
+# google.colab.ai pertenece al runtime Colab; no se instala/emula fuera de él.
+requests==2.34.2
+sentence-transformers==5.1.2
+transformers==4.57.1
+langchain-text-splitters==1.0.0
+qdrant-client==1.16.1
+numpy>=1.26,<3
+pandas>=2.2,<3
+streamlit==1.67.0
+reportlab==4.4.9

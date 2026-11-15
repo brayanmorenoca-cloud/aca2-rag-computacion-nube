@@ -1,0 +1,370 @@
+{
+  "DOCS": [
+    {
+      "filename": "Politica_Devoluciones_Garantias_Superstore.md",
+      "title": "Devoluciones y garantías — escenario comercial académico",
+      "author": "Equipo del proyecto ACA 1 — contenido académico de elaboración propia",
+      "version": "1.0.0",
+      "notice": "MATERIAL ACADÉMICO SIMULADO. Elaborado para ACA 1 — Computación en la Nube. No corresponde a políticas oficiales de Superstore ni de otra empresa. Los procedimientos, condiciones y tiempos son ficticios y se utilizan únicamente para probar un buscador semántico. El dataset aporta categorías de productos, segmentos, regiones y modalidades de envío; no aporta estas políticas. General y All indican alcance transversal definido por el proyecto.",
+      "sections": [
+        {
+          "id": "DEV_FURNITURE",
+          "title": "Muebles recibidos con daños: sillas, mesas y estanterías",
+          "metadata": {
+            "category": "Furniture",
+            "ship_mode": "All",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [
+              "Chairs",
+              "Tables",
+              "Bookcases",
+              "Furnishings"
+            ],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "En este escenario académico, una silla, mesa o estantería que llega golpeada se registra como novedad de recepción, no como reparación autorizada. Se conservan el empaque y las piezas y se toman fotografías del producto completo, del daño y de la etiqueta del paquete. El reporte se presenta dentro de los cinco días de ejemplo posteriores a la recepción, indicando referencia de pedido, producto y cantidad afectada.\n\nLa mesa de ayuda revisa las evidencias antes de acordar recogida, cambio de pieza o sustitución del mueble. No se pide al cliente que use una silla inestable, desmonte una estructura fracturada o improvise una reparación.\n\nEl transporte de retorno se coordina después de aprobar el caso; no debe enviarse el artículo por cuenta propia. Se cierra la novedad únicamente cuando se confirma la solución y se conserva la trazabilidad del pedido. Este procedimiento no acredita garantías reales."
+        },
+        {
+          "id": "DEV_TECH",
+          "title": "Garantía de equipos tecnológicos que dejan de funcionar",
+          "metadata": {
+            "category": "Technology",
+            "ship_mode": "All",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [
+              "Accessories",
+              "Copiers",
+              "Machines",
+              "Phones"
+            ],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Para una falla de funcionamiento en teléfonos, accesorios, copiadoras o máquinas, el caso académico utiliza una ventana ficticia de garantía de noventa días desde la entrega. Se solicitan referencia de pedido, modelo, descripción de la falla y comprobaciones básicas ya realizadas.\n\nAntes de remitir un equipo se acuerda cómo proteger la información guardada y retirar cuentas personales; no se comparten contraseñas con el soporte. El diagnóstico determina si procede una revisión, reparación o sustitución dentro del ejercicio. La aceptación no es automática: la mesa de ayuda verifica identificación y estado del producto.\n\nNo se promete recuperar archivos ni se ordena abrir el dispositivo. Si presenta calor inusual, olor o daño físico, se suspende su uso y se comunica la novedad. La ventana de noventa días es un dato inventado para el corpus, no una condición comercial ni un derecho legal."
+        },
+        {
+          "id": "DEV_OFFICE",
+          "title": "Devolución de suministros de oficina y consumibles",
+          "metadata": {
+            "category": "Office Supplies",
+            "ship_mode": "All",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [
+              "Paper",
+              "Labels",
+              "Envelopes",
+              "Supplies",
+              "Binders"
+            ],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Los suministros de oficina incluyen papel, etiquetas, sobres, carpetas y otros consumibles. En la política ficticia del ejercicio, una solicitud por referencia equivocada se registra dentro de siete días de ejemplo y distingue unidades cerradas de unidades abiertas. Se verifican el código del artículo, la cantidad y el motivo antes de aprobar una devolución.\n\nUn paquete abierto no se trata automáticamente como producto defectuoso: primero se revisa si hubo un error de selección o un problema comprobable del material. Si el pedido llegó incompleto, el trámite corresponde a faltantes y se adjunta la relación de unidades recibidas.\n\nPara etiquetas y papel se conserva una muestra del lote cuando existe un defecto visible, sin compartir documentos impresos con información personal. La respuesta indica el paso siguiente y el número del caso; no se garantiza un reembolso antes de verificar la solicitud."
+        },
+        {
+          "id": "DEV_CORPORATE",
+          "title": "Documentación de devoluciones para compras corporativas",
+          "metadata": {
+            "category": "General",
+            "ship_mode": "All",
+            "segment": "Corporate",
+            "region": "All",
+            "sub_categories": [],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Una compra del segmento Corporate puede incluir productos de varias categorías y varias unidades. Para tramitar una devolución corporativa en el escenario de clase se prepara una relación por referencia: pedido, producto, cantidad recibida, cantidad afectada y motivo. \n\nSe adjuntan el comprobante de compra y las evidencias pertinentes, por ejemplo fotografías de daño o constancia de faltantes. La persona autorizada por la organización centraliza la solicitud para evitar reportes duplicados; no hace falta compartir datos de todos los usuarios del producto.\n\nSi el pedido tuvo entregas parciales, se identifica a qué entrega corresponde cada novedad. La revisión se realiza por artículo, por lo que una incidencia no implica rechazar automáticamente la compra completa. La mesa de ayuda devuelve un número de caso y una lista de datos faltantes. Solo después de esa validación se acuerda una recogida o el ajuste correspondiente dentro de la simulación."
+        },
+        {
+          "id": "DEV_TRACE",
+          "title": "Seguimiento de solicitudes y alcance por segmento",
+          "metadata": {
+            "category": "General",
+            "ship_mode": "All",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "El seguimiento de una devolución se realiza con el número de caso y la referencia del pedido. Los estados del ejercicio son recibido, pendiente de evidencia, en revisión, solución acordada y cerrado. El estado en revisión no significa que el cambio o el abono estén aprobados.\n\nEl registro explica el motivo de una espera y la acción que falta, sin publicar nombres de clientes ni documentos de identidad. Consumer representa compras de consumo, Corporate compras organizacionales y Home Office compras para trabajo en casa; estas etiquetas provienen del dataset y no crean por sí mismas derechos o restricciones.\n\nLas instrucciones generales de seguimiento aplican a los tres segmentos y a todas las regiones del CSV. Por eso el metadato de alcance puede ser All. Si una pregunta exige legislación, condiciones contractuales reales o un estado de pedido en vivo, este corpus no tiene evidencia suficiente y el buscador debe reconocer ese límite."
+        }
+      ]
+    },
+    {
+      "filename": "Manual_SLA_Logistica_Envios.md",
+      "title": "SLA, logística y envíos — manual académico simulado",
+      "author": "Equipo del proyecto ACA 1 — contenido académico de elaboración propia",
+      "version": "1.0.0",
+      "notice": "MATERIAL ACADÉMICO SIMULADO. Elaborado para ACA 1 — Computación en la Nube. No corresponde a políticas oficiales de Superstore ni de otra empresa. Los procedimientos, condiciones y tiempos son ficticios y se utilizan únicamente para probar un buscador semántico. El dataset aporta categorías de productos, segmentos, regiones y modalidades de envío; no aporta estas políticas. General y All indican alcance transversal definido por el proyecto.",
+      "sections": [
+        {
+          "id": "ENV_STANDARD",
+          "title": "Envío estándar: Standard Class",
+          "metadata": {
+            "category": "General",
+            "ship_mode": "Standard Class",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Standard Class es la modalidad estándar del escenario académico. Se usa una estimación ficticia de cuatro a seis días hábiles después de confirmar el despacho; no se cuentan desde la creación del pedido. La confirmación incluye modalidad, referencia de seguimiento y una fecha estimada, no una promesa de entrega real.\n\nAntes del despacho se comprueban disponibilidad y datos mínimos de destino. Si el plazo estimado termina sin confirmación de entrega, se registra una consulta logística y se verifica el último evento del envío. La categoría de producto no cambia automáticamente esta modalidad: Furniture, Office Supplies y Technology pueden figurar en pedidos estándar.\n\nLos valores Order Date y Ship Date del CSV describen pedido y despacho, no recepción del cliente. Por esa razón su diferencia no prueba que se haya cumplido el plazo de entrega propuesto en este manual. La estimación es didáctica y no se atribuye a una transportadora."
+        },
+        {
+          "id": "ENV_SECOND",
+          "title": "Envío prioritario intermedio: Second Class",
+          "metadata": {
+            "category": "General",
+            "ship_mode": "Second Class",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Second Class representa, en la simulación, una prioridad intermedia entre la modalidad estándar y First Class. Su estimación de ejemplo es de dos a tres días hábiles a partir de la confirmación de despacho. Elegir esta modalidad no corrige una dirección incompleta ni asegura inventario: esas condiciones se revisan por separado.\n\nLa comunicación al cliente debe distinguir el tiempo de preparación del pedido y el tiempo previsto de transporte. Si hay una entrega parcial, se conserva una referencia de seguimiento por despacho y se informa qué unidades continúan pendientes. Un cambio de modalidad requiere confirmación antes del despacho; no se promete aceleración después de que el paquete está en tránsito.\n\nLos plazos de esta sección son valores ficticios para las consultas del proyecto. El dataset permite identificar pedidos con Second Class, pero no contiene un contrato de nivel de servicio ni acredita estos plazos."
+        },
+        {
+          "id": "ENV_FIRST",
+          "title": "Envío prioritario: First Class",
+          "metadata": {
+            "category": "General",
+            "ship_mode": "First Class",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "First Class se modela como envío prioritario con una estimación ficticia de uno a dos días hábiles posteriores al despacho confirmado. El pedido debe estar disponible y tener los datos de destino completos antes de asignar esa expectativa. Prioritario no equivale a entrega en el mismo día: esa modalidad se denomina Same Day y requiere una validación distinta.\n\nSi se detecta una incidencia antes del despacho, se avisa de la nueva estimación sin ocultar el cambio bajo una promesa anterior. El seguimiento registra la hora del último evento disponible y la acción solicitada al operador ficticio. Si una persona necesita un compromiso real para una compra concreta, debe consultar al proveedor; el buscador académico solo recupera este manual.\n\nFirst Class es una etiqueta observada en el CSV, mientras que la estimación y el procedimiento fueron creados por el equipo para el ejercicio de recuperación semántica."
+        },
+        {
+          "id": "ENV_SAME_DAY",
+          "title": "Entrega el mismo día: Same Day",
+          "metadata": {
+            "category": "General",
+            "ship_mode": "Same Day",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Same Day identifica la opción de entrega el mismo día dentro del escenario de clase. Para ofrecerla se verifica primero que haya inventario, cobertura del destino y capacidad logística disponible. El ejercicio utiliza como hora de corte ficticia las once de la mañana, en la hora local del punto de despacho; recibir la solicitud antes de esa hora no garantiza por sí solo su aceptación.\n\nLa confirmación debe indicar expresamente que la entrega del mismo día fue aprobada. Cuando falta cobertura o capacidad se ofrece otra modalidad y se solicita conformidad con la nueva estimación. No se deduce cobertura por pertenecer a Central, East, South o West: esas regiones del CSV son agrupaciones analíticas y no mapas de reparto.\n\nEl dataset tampoco incluye inventario en tiempo real ni horarios de operación, de modo que los requisitos y la hora de corte son condiciones simuladas, no compromisos de una compañía."
+        },
+        {
+          "id": "ENV_DELAY",
+          "title": "Retrasos, paquetes sin movimiento y entregas parciales",
+          "metadata": {
+            "category": "General",
+            "ship_mode": "All",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Cuando un envío supera su fecha estimada o no presenta nuevos eventos, el procedimiento académico consiste en abrir una incidencia logística con referencia de seguimiento y modalidad seleccionada. Se registra el último estado conocido y se comprueba si hubo un intento de entrega, datos de destino pendientes o una división del pedido en paquetes. \n\nNo se informa que el paquete está perdido solo por una demora. Si hay entregas parciales, se enumeran las unidades recibidas y las que faltan antes de solicitar revisión. La mesa de ayuda comunica un siguiente paso y una nueva actualización, sin inventar la ubicación del paquete ni el tiempo restante. Este flujo aplica a Standard Class, Second Class, First Class y Same Day; por eso utiliza el alcance All.\n\nEl corpus no está conectado a una transportadora y no puede consultar estados de pedidos reales. Las respuestas deben explicar el procedimiento disponible y esa limitación."
+        },
+        {
+          "id": "ENV_DATA_SCOPE",
+          "title": "Cómo se relacionan fechas y regiones con los envíos",
+          "metadata": {
+            "category": "General",
+            "ship_mode": "All",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Order Date representa la fecha registrada del pedido y Ship Date la fecha registrada de despacho. La resta entre ambas sirve para describir un intervalo de preparación en el dataset, pero no mide duración del transporte ni fecha de recepción. Para evaluar un SLA real de entrega se necesitarían, además, una fecha de recepción y una promesa contractual verificable; estos datos no están en train.csv.\n\nRegion contiene Central, East, South y West, que se conservan literalmente para mantener el vínculo con los registros comerciales. No se traducen esas etiquetas a zonas de Colombia ni se infieren distancias o tarifas de ellas.\n\nUn valor General en category significa que una sección aplica a productos de varias categorías; All en ship_mode indica varias modalidades. Son convenciones del corpus, no filas nuevas del archivo original. El objetivo de esta relación es filtrar contexto pertinente sin atribuir al CSV información inexistente."
+        }
+      ]
+    },
+    {
+      "filename": "Catalogo_Soporte_Tecnico_Productos.md",
+      "title": "Catálogo de orientación y soporte — material académico",
+      "author": "Equipo del proyecto ACA 1 — contenido académico de elaboración propia",
+      "version": "1.0.0",
+      "notice": "MATERIAL ACADÉMICO SIMULADO. Elaborado para ACA 1 — Computación en la Nube. No corresponde a políticas oficiales de Superstore ni de otra empresa. Los procedimientos, condiciones y tiempos son ficticios y se utilizan únicamente para probar un buscador semántico. El dataset aporta categorías de productos, segmentos, regiones y modalidades de envío; no aporta estas políticas. General y All indican alcance transversal definido por el proyecto.",
+      "sections": [
+        {
+          "id": "SOP_COPIERS",
+          "title": "Copiadoras y equipos de impresión que no imprimen",
+          "metadata": {
+            "category": "Technology",
+            "ship_mode": "All",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [
+              "Copiers",
+              "Machines"
+            ],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Si una copiadora o un equipo de impresión no imprime, la guía académica comienza por identificar el modelo y el mensaje visible, sin asumir una causa. Se revisan alimentación, conexión seleccionada, papel disponible y estado de la cola de impresión.\n\nUna prueba desde el propio equipo ayuda a distinguir un problema del dispositivo de uno de conexión con el computador. Si existe un atasco se siguen únicamente las instrucciones accesibles del fabricante; no se fuerza una pieza ni se abre una zona eléctrica. Se anotan los pasos probados y el resultado para evitar repetirlos al escalar el caso.\n\nNo se instala un controlador de origen desconocido ni se comparte una contraseña de red en el formulario. El corpus no incluye manuales de modelos específicos: una reparación, un código de error especializado o la compatibilidad exacta de un consumible requieren documentación oficial. Esta sección orienta una primera revisión, no certifica una solución."
+        },
+        {
+          "id": "SOP_PHONES",
+          "title": "Teléfonos sin carga o que no encienden",
+          "metadata": {
+            "category": "Technology",
+            "ship_mode": "All",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [
+              "Phones",
+              "Accessories"
+            ],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Ante un teléfono que no carga o no enciende, la orientación del escenario académico consiste en registrar el modelo y comprobar si el accesorio de carga es compatible y está en buen estado. Se inspeccionan visualmente cable y conector, sin introducir objetos metálicos ni desmontar el equipo.\n\nPuede probarse un enchufe funcional y un accesorio compatible conocido, siguiendo las indicaciones del fabricante. Si hay hinchazón, calor inusual, líquido o daño visible, no se insiste en cargarlo y se solicita revisión técnica. \n\nNo se recomienda restaurar de fábrica como primer paso: podría eliminar información y no demuestra que el problema sea de software. El caso de soporte describe los síntomas y las pruebas realizadas sin pedir claves de desbloqueo. La guía no promete recuperación de datos, reparación de baterías ni compatibilidad con un modelo concreto; para esos puntos se necesita evidencia externa al corpus."
+        },
+        {
+          "id": "SOP_FURNITURE",
+          "title": "Sillas, mesas y mobiliario: montaje y estabilidad",
+          "metadata": {
+            "category": "Furniture",
+            "ship_mode": "All",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [
+              "Chairs",
+              "Tables",
+              "Bookcases",
+              "Furnishings"
+            ],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "La orientación para mobiliario distingue una duda de montaje de un daño al recibir el producto. Para una silla o mesa que queda inestable se comprueba visualmente que estén presentes las piezas indicadas en su instructivo y que el montaje corresponda al modelo. \n\nNo se inventan pares de apriete, límites de peso ni formas de anclaje: el catálogo de clase no contiene esas especificaciones. Si falta una pieza, se registra su referencia según el instructivo y se adjunta una fotografía del conjunto para solicitar revisión. Una estructura fisurada o una silla insegura no se utiliza mientras se define la atención. \n\nSi el daño ya estaba al recibirla, corresponde consultar la sección de devoluciones de Furniture, conservando empaque y evidencias. El soporte no debe convertir una novedad de entrega en una reparación improvisada. Esta clasificación del caso es parte de la simulación académica y no reemplaza el manual del fabricante."
+        },
+        {
+          "id": "SOP_OFFICE",
+          "title": "Papel, etiquetas y suministros: identificación y compatibilidad",
+          "metadata": {
+            "category": "Office Supplies",
+            "ship_mode": "All",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [
+              "Paper",
+              "Labels",
+              "Envelopes",
+              "Binders",
+              "Supplies"
+            ],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Para seleccionar papel o etiquetas se identifica primero el uso y el equipo donde se emplearán. Se compara la referencia del consumible con la documentación del fabricante del equipo, porque el nombre comercial de un producto no garantiza su compatibilidad. \n\nEn la orientación académica se revisan formato, presentación y cantidad solicitada, sin inventar gramajes admitidos, temperaturas o medidas ausentes del corpus. Si el material se atasca o desprende adhesivo, se suspende esa prueba y se consulta el manual del dispositivo antes de continuar.\n\nSi se recibió una referencia distinta a la comprada, el caso pertenece a devolución o corrección del pedido, no a soporte de configuración. Los útiles y carpetas se identifican por referencia y unidad de empaque. El CSV tiene nombres y subcategorías de productos, pero no fichas técnicas completas; el buscador debe reconocerlo cuando se le pide una compatibilidad exacta."
+        },
+        {
+          "id": "SOP_SCOPE",
+          "title": "Escalamiento, privacidad y preguntas fuera del catálogo",
+          "metadata": {
+            "category": "General",
+            "ship_mode": "All",
+            "segment": "All",
+            "region": "All",
+            "sub_categories": [],
+            "source_type": "academico_simulado",
+            "corpus_version": "1.0.0"
+          },
+          "text": "Una solicitud de soporte del ejercicio se escala cuando requiere una ficha técnica, una reparación especializada o una condición que no figura en los documentos disponibles. El registro mínimo contiene categoría, referencia de producto, síntoma y verificaciones ya realizadas; no necesita contraseñas, documentos personales ni archivos privados. \n\nEl buscador muestra el fragmento recuperado y su fuente, pero una similitud alta no prueba que la respuesta resuelva cualquier caso. Si la pregunta trata de salud, asesoría legal, precios actuales, inventario en vivo o seguimiento de pedidos reales, debe declararse que el corpus no tiene soporte suficiente.\n\nNo se completa la respuesta inventando una política o atribuyendo una afirmación al dataset. Los tres documentos apoyan únicamente situaciones comerciales simuladas: devoluciones, logística y orientación inicial de productos de Furniture, Office Supplies y Technology."
+        }
+      ]
+    }
+  ],
+  "QUERIES": [
+    {
+      "id": "Q1",
+      "text": "La silla que pedí llegó rota. ¿Qué evidencia debo enviar y cómo solicito que la recojan?",
+      "expected_sections": [
+        "DEV_FURNITURE"
+      ],
+      "filters": {
+        "category": "Furniture"
+      },
+      "is_out_of_scope": false
+    },
+    {
+      "id": "Q2",
+      "text": "Compré un teléfono hace un mes y dejó de funcionar. ¿Cómo se tramita la garantía del ejercicio?",
+      "expected_sections": [
+        "DEV_TECH"
+      ],
+      "filters": {
+        "category": "Technology"
+      },
+      "is_out_of_scope": false
+    },
+    {
+      "id": "Q3",
+      "text": "Mi empresa necesita devolver varias unidades de un pedido. ¿Qué documentos y cantidades debe reportar?",
+      "expected_sections": [
+        "DEV_CORPORATE"
+      ],
+      "filters": {
+        "segment": "Corporate"
+      },
+      "is_out_of_scope": false
+    },
+    {
+      "id": "Q4",
+      "text": "Elegí el envío estándar. ¿Cuál es el plazo estimado en este manual y desde qué momento se cuenta?",
+      "expected_sections": [
+        "ENV_STANDARD"
+      ],
+      "filters": {
+        "ship_mode": "Standard Class"
+      },
+      "is_out_of_scope": false
+    },
+    {
+      "id": "Q5",
+      "text": "¿Puedo recibir la compra hoy mismo y qué condiciones deben confirmar antes de aceptar ese envío?",
+      "expected_sections": [
+        "ENV_SAME_DAY"
+      ],
+      "filters": {},
+      "is_out_of_scope": false
+    },
+    {
+      "id": "Q6",
+      "text": "La copiadora está encendida, pero no sale ninguna hoja. ¿Qué revisiones iniciales puedo hacer?",
+      "expected_sections": [
+        "SOP_COPIERS"
+      ],
+      "filters": {
+        "category": "Technology"
+      },
+      "is_out_of_scope": false
+    },
+    {
+      "id": "Q7",
+      "text": "El celular no carga y quiero conservar mis archivos. ¿Qué debo revisar antes de pensar en restaurarlo?",
+      "expected_sections": [
+        "SOP_PHONES"
+      ],
+      "filters": {},
+      "is_out_of_scope": false
+    },
+    {
+      "id": "Q8",
+      "text": "¿Qué tratamiento médico sirve para curar una infección respiratoria?",
+      "expected_sections": [],
+      "filters": {},
+      "is_out_of_scope": true
+    }
+  ]
+}
