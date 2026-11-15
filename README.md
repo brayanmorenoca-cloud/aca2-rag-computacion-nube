@@ -1,5 +1,15 @@
 # ACA 2 - RAG conversacional de ventas
 
+## Enlaces públicos de la entrega (15 de noviembre de 2026)
+
+- **Aplicación Streamlit:** https://aca2-rag-ventas-brayan-jose.streamlit.app/
+- **Repositorio de código:** https://github.com/brayanmorenoca-cloud/aca2-rag-computacion-nube
+- **Notebook Colab:** https://colab.research.google.com/drive/1oCnWKoHeu2l8NO7vB66yo3SLw_d7XNzc
+- **Video compartido por el equipo (contenido pendiente de revisión independiente):** https://drive.google.com/file/d/1Gv17cXpJ0MBb3mSb0fZlE3CSa4F3F_Pv/view?usp=sharing
+
+**Estado técnico:** el repositorio público está completo, la aplicación Streamlit carga su interfaz y la colección Qdrant propia tiene 47 puntos verificados. La app pública aún requiere las claves privadas `QDRANT_PROPIO_API_KEY` y `GEMINI_API_KEY` en Streamlit Secrets antes de que se pueda certificar una conversación en vivo. La cadena RAG sí fue probada en Colab; esa evidencia no sustituye el test del despliegue público.
+
+
 Proyecto integrado de Computación en la Nube (CUN): continuidad de la base vectorial del ACA 1, generación con LLM, chat con historial, exploración documental y evaluación. **El código disponible, las ejecuciones verificadas y los entregables publicados son estados diferentes**: revisar `documentacion/estado_integracion.md` y los registros, no deducir aprobación por la existencia de este README.
 
 El corpus tiene tres documentos académicos simulados. Sus políticas y plazos no son condiciones oficiales de Superstore; el dataset tabular aporta contexto, no reglas comerciales ni información en tiempo real.
